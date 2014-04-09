@@ -1,0 +1,53 @@
+****************************************
+******  TEXTPATGEN GENDATA FILES  ******
+****************************************
+
+The Text Pattern Generator Gendata files are programs that generate random
+data. This comes in very handy if you want your text to be displayed in a
+fixed-width font, when each line of data text will align exactly at the
+correct column position on each line.
+
+Let's now generate a piece of random text data using this command from the
+Go Compiler:
+
+  go run tpl-gendata-0001.go 256 16 0 255 10
+
+This is what you should see:
+
+####################################
+#
+# -- TEXTPATGEN GENERATED RANDOM DATA --
+#
+# -- A generated random data file created from:
+# -- tpl-gendata-0001.go
+#
+# Total number: 256
+# Number in a line: 16
+# Lowest printable number: 0
+# Highest printable number: 255
+# Random number seed: 10
+#
+####################################
+b4 db 3e 68 35 46 9c b8 85 e2 be 56 74 e5 36 65
+f2 ac cc cd 23 3a 2e a2 4e ad 33 6f aa 65 14 2a
+12 fa 91 06 d2 09 06 07 53 47 59 54 a1 20 07 35
+02 73 1e 9f b8 2b 68 2e 4e e3 82 64 4a b6 99 38
+ec 0d 90 f7 dc e7 af 7d 97 0b 33 21 55 0b 99 11
+e0 dc 1d c4 e8 2c 71 d9 4a c0 72 ea 65 25 87 c2
+ad ec 84 75 5b 2e 86 00 6b 94 84 bb 29 b2 4b 2f
+9c 2f d7 da ae 08 c8 fc ea d1 e5 67 d7 3f 88 70
+59 f8 41 63 e8 9b 50 71 a2 c8 84 5a 31 40 99 26
+5b 48 1d 3e ce 25 48 ae 1e 13 c5 d7 07 3d 36 69
+2c e8 6c a4 90 71 d0 28 d8 70 61 e4 c6 7b fd 6f
+f9 18 08 35 7f 6c b1 d5 3d 1e 95 27 e7 e2 63 7d
+a3 9b 37 00 83 b9 19 59 d1 e8 b4 1e 8b 2b 8c 4e
+e2 c1 05 3a 97 bd 3b 9d 23 66 64 43 65 73 ed 4d
+6e 7c 8c a5 73 18 0c 69 6d 75 23 e3 f3 82 e2 8e
+55 38 4a 99 77 21 ec 3e 82 d8 f7 ed 7b d4 5b e7
+
+
+If you take a look at the last number on each line, you should see the number
+'65' on the first line, followed by '2a' on the next line, then '35' on the
+third line and so forth. If they line up from top to bottom exactly, then you
+are using a fixed-width font.
+

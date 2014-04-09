@@ -1,0 +1,9 @@
+This README is for setting up the Go Programming Language for Textpatgen-Golang.
+
+For those using Linux, there is a script named "setup-golang-linux.sh", and
+this will download various documents, tutorials and instructions about
+the Go Programming Language, plus how to set up using GCCGO and LLVM/LLGO.
+
+Please note that it will require Subversion (SVN), Mercurial (Hg), and Git
+to be installed on your computer.
+
