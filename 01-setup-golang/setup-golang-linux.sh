@@ -23,7 +23,7 @@ hg clone https://code.google.com/p/go.tools/
 hg clone https://code.google.com/p/go.benchmarks/
 
 # ----- GCCGO -----
-wget http://golang.org/doc/install/gccgo -O gccgo-install.html
+svn co http://gcc.gnu.org/svn/gcc/branches/gccgo/
 
 # ----- LLVM/LLGO -----
 git clone https://github.com/go-llvm/llvm.git

@@ -12,11 +12,15 @@ go run tpl-decgen-0001.go 0 99 10
 -------------------------------------------
 --- Using GCC (GCCGO)
 
-gccgo tpl-decgen-001.go; ./a.out 0 99 10
+gccgo tpl-decgen-0001.go; ./a.out 0 99 10
+
+If you are having problems, see "Setting up and using gccgo"
+at http://golang.org/doc/install/gccgo
 -------------------------------------------
 --- Using LLVM/LLGO
 
-llgo tpl-decgen-001.c; ./a.out 0 99 10
+See https://github.com/go-llvm/llgo
+and https://github.com/axw/llgo/
 -------------------------------------------
 
 The Textpatgen Generated File is written to standard output,
