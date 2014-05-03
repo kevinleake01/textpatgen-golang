@@ -12,7 +12,7 @@ go run tpl-decgen-0001.go 0 99 10
 -------------------------------------------
 --- Using GCC (GCCGO)
 
-gccgo tpl-decgen-0001.go; ./a.out 0 99 10
+gccgo -g tpl-decgen-0001.go; ./a.out 0 99 10
 
 If you are having problems, see "Setting up and using gccgo"
 at http://golang.org/doc/install/gccgo
