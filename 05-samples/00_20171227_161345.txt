@@ -1,0 +1,32 @@
+####################################
+#
+# -- TEXTPATGEN GENERATED RANDOM DATA --
+#
+# -- A generated random data file created from:
+# -- tpl-gendata-tcode-0002.go
+#
+# -- Created: 2017-12-27T16:13:56Z
+#
+# Total number: 256
+# Number in a line: 16
+# Lowest printable number: 0
+# Highest printable number: 65535
+# Random number seed: 100
+#
+####################################
+bceb 555e 527a d894 56c1 18e9 dc8d d3af a433 2925 afee 2d33 0f07 324f 02e8 211c
+ae50 2cac 7df2 d0f5 db71 4e8d d900 cb75 ec73 e0c3 ee9f 0ce1 bca5 2ee5 dc77 3a88
+bc2a bc02 a24a d571 6a3c 1ca6 8e5f 74f1 06d4 9e2e 519c c335 c68f 64a5 e19f 7ead
+9eec 9b21 cbff 3f63 c730 c2e7 7b9b 14ab 0d37 6956 fb52 6c1f b63d e9c9 76dd 7165
+9e0f 9676 c2aa 942b 6de5 7c6e 4dc4 4763 b4fb f1f4 484b 9b7e 7c52 e27c b872 af3e
+aa52 03c1 a593 eaf5 6ef2 bc01 5194 6943 a1c4 c6ef 86b5 719d e9c9 7a66 3f3f 45e4
+f619 d81f 2b0c 6c03 855a bcc4 904a 6ff5 5591 687e 5519 3e2b 88e1 d93a 0b4a 9f87
+0164 e3d7 80aa 5e9a ffed a186 0463 f4ab 720d 3904 4797 7ddb 00e1 f724 df82 d4c5
+66ae 376c 56f6 06e7 5370 4314 b6fe 7822 2c01 7a7f bd5f cdbc e6a5 cae7 e8ff 5ff7
+1c55 81d7 4d0b 9d77 893a 537e 9160 8244 2b2c dd59 734d 51db 1abd f2ef 34d8 e726
+8cba eea0 1581 ac3d 831c 7661 5ebe d44a dafe a978 5245 cd72 9146 720b 3f51 98a8
+e68a f2b7 4e18 9e66 dac9 59bc 1e36 d65d 147f 5d22 9cb4 7002 80e7 c4c3 fb86 e8f6
+68c5 a869 a082 9482 0a73 6c9f 0c94 bd99 19ef 7fdc 4b42 9dba 024b 6f67 8bb5 55ab
+98c1 6608 66e7 d3d4 dc75 be3a 7d27 ea32 ccaf b0f0 e133 4df3 3262 bdba d48d 759d
+7f2b a388 1b77 9f17 47ee 044d ed7c 008e 5448 fa7e adae 017c 9994 d8a1 a20c c09b
+2149 237d c64b d311 74b1 45fa c513 00ca 2d28 39b2 75ac 139b 9db0 8846 ce95 5fea

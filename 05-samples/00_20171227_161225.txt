@@ -1,0 +1,32 @@
+####################################
+#
+# -- TEXTPATGEN GENERATED RANDOM DATA --
+#
+# -- A generated random data file created from:
+# -- tpl-gendata-tcode-0001.go
+#
+# -- Created: 2017-12-27T16:12:53Z
+#
+# Total number: 256
+# Number in a line: 16
+# Lowest printable number: 0
+# Highest printable number: 255
+# Random number seed: 100
+#
+####################################
+a8 b3 cc 6d 18 02 6a 83 d7 4e 9e 60 16 81 ea 3d
+fe d8 70 c6 4d db d9 41 60 a4 8e ed 62 14 54 c2
+e6 be ec 47 a6 c2 ed 66 da cc ed f8 56 0a 81 2c
+8b bc cb a2 f7 aa 17 bf 44 bf 4e 8b f3 b3 54 d6
+ad 0d 6d bf 53 ea 12 aa b0 e6 93 1a ce 5f 2b ed
+fc c4 39 e0 61 bd e5 ac 66 b6 3c 0f b3 e0 7e 2a
+10 f7 37 6f df 81 da 65 e6 e6 6e 69 6a 14 55 27
+65 bb 2b f8 ed 28 67 a0 7f 3d de 59 e1 1c 62 9a
+15 a3 4d ed c3 57 b5 9a 2d f9 1d 8a 8c b2 e8 57
+71 59 58 15 c3 d1 f1 c6 57 37 c0 2d d7 e2 0d 0e
+47 8f 96 e9 9f d7 1d 1f d9 22 97 40 d7 7d 90 41
+71 aa 66 05 a4 16 54 34 93 7f 51 72 68 88 82 df
+2e 12 23 17 7d 0c a0 57 09 5c 8d 58 4d d6 41 01
+5a 6e 4e a8 52 f8 a4 1d 7c a1 15 41 94 78 62 13
+aa 2c 92 b6 36 51 6a 8e 9c 79 5c 7d 2e 7a ae 5c
+6a a0 12 e4 26 40 d8 ca 55 eb 22 ae 4e ce 64 4a

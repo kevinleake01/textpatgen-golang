@@ -1,37 +1,9 @@
---- HOW TO CREATE TEXTPATGEN FILES IN 02-WORKSPACE-GO ---
-
-The examples shown below will show you how to create
-
-  tpl-decgen-0001.go 0 99 10
-
-using the various Go compilers as follows:
--------------------------------------------
---- Using GO
-
-go run tpl-decgen-0001.go 0 99 10
--------------------------------------------
---- Using GCC (GCCGO)
-
-gccgo -g tpl-decgen-0001.go; ./a.out 0 99 10
-
-If you are having problems, see "Setting up and using gccgo"
-at http://golang.org/doc/install/gccgo
--------------------------------------------
---- Using LLVM/LLGO
-
-See https://github.com/go-llvm/llgo
-and https://github.com/axw/llgo/
--------------------------------------------
-
-The Textpatgen Generated File is written to standard output,
-and you should see something like this:
-
 ####################################
 #
 # -- TEXTPATGEN GENERATED FILE --
 #
-# -- A generated text file created from:
-# -- tpl-decgen-0001.go
+# -- Created from tpl-decgen-tcode-0001.go at:
+# -- 2017-12-27T13:42:25Z
 #
 # Start number: 0 ( 0x0 Hex, 00 Octal )
 # Finish number: 99 ( 0x63 Hex, 0143 Octal )
@@ -49,5 +21,3 @@ D-00070 D-00071 D-00072 D-00073 D-00074 D-00075 D-00076 D-00077 D-00078 D-00079
 D-00080 D-00081 D-00082 D-00083 D-00084 D-00085 D-00086 D-00087 D-00088 D-00089
 D-00090 D-00091 D-00092 D-00093 D-00094 D-00095 D-00096 D-00097 D-00098 D-00099
 # -- End of file.
-
-
