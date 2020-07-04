@@ -1,7 +1,7 @@
 /*
 ####################################
 #
-# --- MAKE-GO-TPL-0001.C ---
+# --- MAKE-GO-TPL-0002.C ---
 #
 # This converts a standard text file
 # into a Textpatgen Go Template file.
@@ -16,6 +16,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 int main(int argc, char *argv[]);
 
@@ -24,16 +25,30 @@ FILE *fp;  /* File pointer */
 
 int main(int argc, char *argv[])
 {
+  /* Timestamp info */
+  time_t timer;
+  char buffer1[32], buffer2[32];
+  struct tm* tm_info;
+
+  time(&timer);  /* get the time */
+  tm_info=localtime(&timer);
+
+  strftime(buffer1, 32, "%Y-%m-%dT%H:%M:%S%z", tm_info); /* ISO 8601 Timestamp to print */
+  strftime(buffer2, 32, "%s", tm_info); /* Unix Epoch Timestamp to print */
+
   fp=fopen(argv[1],"r"); /* Open file */
   
   printf("/*\n");
   printf("####################################\n");
   printf("#\n");
-  printf("# --- MAKE-G0-TPL-0001.GO ---\n");
+  printf("# --- MAKE-G0-TPL-0002.GO ---\n");
   printf("#\n");
   printf("# This file named %s has\n",argv[1]);
   printf("# been converted to a Textpatgen Go\n");
   printf("# Template file.\n");
+  printf("#\n");
+  printf("# -- ISO 8601 Time: %s\n", buffer1);
+  printf("# -- Epoch Time: %s\n", buffer2);
   printf("#\n");
   printf("####################################\n");
   printf("*/\n\n");
