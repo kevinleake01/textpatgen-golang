@@ -74,7 +74,6 @@ func main() {
 
 
 func random(randmin int64, randmax int64) int64 {
-//    rand.Seed(randseed);
     return rand.Int63n(randmax-randmin) + randmin;
 }
 

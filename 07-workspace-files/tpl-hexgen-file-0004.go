@@ -1,12 +1,10 @@
 /*
 ####################################
 #
-# --- TEXTPATGEN TEMPLATE ---
+# -- TEXTPATGEN TEMPLATE --
 #
-# Users can change the output by editing
-# this file directly.
-#
-# The text is written to a named file.
+# Example usage:
+# tpl-hexgen-file-0004.go 0 255 16
 #
 ####################################
 */
@@ -16,22 +14,31 @@ package main
 import (
   "fmt"
   "os"
+  "strconv"
+  "time"
 )
 
 var size int64;
-var fpo *os.File;
-var message string = "D-"; /* Message text */
-var separator string = " ";  /* Separator text */
+var message string = ""; /* Message text */
+var separator string = "";  /* Separator text */
 
 func main() {
-  start:=int64(0);  /* Start number */
-  finish:=int64(99); /* Finish number */
-  width:=int64(10);  /* Numbers in a line */
+  start,_:=strconv.ParseInt(os.Args[1],10,64);  /* Start number */
+  finish,_:=strconv.ParseInt(os.Args[2],10,64); /* Finish number */
+  width,_:=strconv.ParseInt(os.Args[3],10,64);  /* Numbers in a line */
 
-  fpo,_:=os.Create("file0002.txt");
+  now := time.Now();  /* Get the time */
+  epoch := now.Unix();  /* Use Epoch Time */
+  epochstr := strconv.FormatInt(epoch, 10); /* Convert this to a string */
+
+  fpo,_:=os.Create("00_" + epochstr + ".txt");
   fmt.Fprintf(fpo, "####################################\n");
   fmt.Fprintf(fpo, "#\n");
   fmt.Fprintf(fpo, "# -- TEXTPATGEN GENERATED FILE --\n");
+  fmt.Fprintf(fpo, "#\n");
+  fmt.Fprintf(fpo, "# -- Created from tpl-hexgen-file-0004.go at:\n");
+  fmt.Fprintf(fpo, "# -- %s\n", now.Format(time.RFC3339));
+  fmt.Fprintf(fpo, "# -- Epoch Time: %d\n", epoch);
   fmt.Fprintf(fpo, "#\n");
   fmt.Fprintf(fpo, "# Start number: %d ( 0x%X Hex, 0%o Octal )\n",start,start,start);
   fmt.Fprintf(fpo, "# Finish number: %d ( 0x%X Hex, 0%o Octal )\n",finish,finish,finish);
@@ -50,12 +57,12 @@ func numgen(start int64, finish int64, size int64, width int64, fpo *os.File) {
          break;
       }
       fmt.Fprintf(fpo, "%s", message);
-      fmt.Fprintf(fpo, "%05d", num);  /* Number base format */
+      fmt.Fprintf(fpo, "%02X", num);  /* Number base format */
       fmt.Fprintf(fpo, "%s", separator);
       num++;
     }
     fmt.Fprintf(fpo, "%s", message);
-    fmt.Fprintf(fpo, "%05d\n", num);  /* Number base format */
+    fmt.Fprintf(fpo, "%02X\n", num);  /* Number base format */
   }
 }
 
