@@ -22,7 +22,7 @@ import (
 
 var size int64;
 var fpo *os.File;
-var message string = "X-"; /* Message text */
+var message string = "D-"; /* Message text */
 var separator string = " ";  /* Separator text */
 
 func main() {

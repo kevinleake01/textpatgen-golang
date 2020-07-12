@@ -19,7 +19,7 @@ import (
 )
 
 var size int64;
-var message string = "D-"; /* Message text */
+var message string = "X-"; /* Message text */
 var separator string = " ";  /* Separator text */
 
 func main() {
