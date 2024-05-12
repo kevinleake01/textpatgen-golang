@@ -1,0 +1,31 @@
+####################################
+#
+# -- TEXTPATGEN GENERATED RANDOM DATA --
+#
+# -- A generated random data file created from:
+# -- tpl-gendata-file-0002.go
+#
+# -- Created: 2024-03-17T11:36:15Z
+# -- Epoch Time: 1710675375
+#
+# Total number: 87
+# Number in a line: 7
+# Lowest printable number: 0
+# Highest printable number: 65535
+# Random number seed: 428
+#
+####################################
+3d3c 34be 05a5 6de9 df34 2917 6fed
+eaac a7b3 da1c bdc6 9615 cbe4 7bbc
+1a46 1303 ca2e 87ba 6eab 6313 338a
+c42d 2ed5 1b6b e642 7499 cf88 6e21
+4478 8c0e 207e bb94 5585 5096 4800
+481f 65c7 c522 1f4b fe4a 9e9e 8572
+040e f2d1 33da f7af 32df d593 67c5
+918f 149f feb1 8e9e 2759 aa22 ba54
+6358 b942 4caf 3ac5 5663 5187 e967
+b83b c67d 855a faed 16cc 83fb cd72
+992f 773c 699f 7a82 64de 5a51 e2b2
+0020 6910 c736 eeff 0900 795e ef2a
+6a89 f9f6 a7ee
+# -- End of file.
